@@ -1,6 +1,6 @@
 import React from "react";
 
-const TheGym = () => {
+const TheGymOLD = () => {
   // Room: Strength Room
   const strengthImageUrls = [
     "DSC08823.jpg",
@@ -236,4 +236,4 @@ const TheGym = () => {
   );
 };
 
-export default TheGym;
+export default TheGymOLD;

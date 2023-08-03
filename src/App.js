@@ -6,7 +6,15 @@ import Navbar from "./components/Navbar";
 
 import SocialMediaIcons from "./components/SocialMediaIcons";
 import Homepage from "./pages/Homepage";
-import TheGym from "./pages/TheGym";
+import TheGymOLD from "./pages/TheGymOLD";
+
+import LegRoom from "./pages/LegRoom";
+import CardioAndAbsRoom from "./pages/CardioAndAbsRoom";
+import ChestAndBackRoom from "./pages/ChestAndBackRoom";
+import ShouldersAndArmsRoom from "./pages/ShouldersAndArmsRoom";
+import StrengthRoom from "./pages/StrengthRoom";
+import HIITRoom from "./pages/HIITRoom";
+import BoxingAndBikesRoom from "./pages/BoxingAndBikesRoom";
 
 const App = () => {
   return (
@@ -17,7 +25,24 @@ const App = () => {
         <Routes>
           <Route index element={<Homepage />} />
 
-          <Route path="thegym" element={<TheGym />} />
+          <Route path="thegymold" element={<TheGymOLD />} />
+
+          <Route path="legroom" element={<LegRoom />} />
+
+          <Route path="cardioandabsroom" element={<CardioAndAbsRoom />} />
+
+          <Route path="chestandbackroom" element={<ChestAndBackRoom />} />
+
+          <Route
+            path="shouldersandarmsroom"
+            element={<ShouldersAndArmsRoom />}
+          />
+
+          <Route path="strengthroom" element={<StrengthRoom />} />
+
+          <Route path="hiitroom" element={<HIITRoom />} />
+
+          <Route path="boxingandbikesroom" element={<BoxingAndBikesRoom />} />
         </Routes>
       </Container>
     </BrowserRouter>
