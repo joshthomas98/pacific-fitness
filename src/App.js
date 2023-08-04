@@ -17,6 +17,7 @@ import StrengthRoom from "./pages/StrengthRoom";
 import HIITRoom from "./pages/HIITRoom";
 import BoxingAndBikesRoom from "./pages/BoxingAndBikesRoom";
 import Contact from "./pages/Contact";
+import Membership from "./components/Membership";
 
 const App = () => {
   return (
@@ -49,6 +50,8 @@ const App = () => {
           <Route path="boxingandbikesroom" element={<BoxingAndBikesRoom />} />
 
           <Route path="contact" element={<Contact />} />
+
+          <Route path="membership" element={<Membership />} />
         </Routes>
         <Footer />
       </Container>

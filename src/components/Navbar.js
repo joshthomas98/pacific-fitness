@@ -75,6 +75,14 @@ const NavbarComponent = () => {
             >
               Contact
             </Nav.Link>
+
+            <Nav.Link
+              className="text-light"
+              style={{ fontSize: "20px" }}
+              href="/membership"
+            >
+              Membership
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

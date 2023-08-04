@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Carousel from "../components/Carousel";
 import Testimonials from "../components/Testimonials";
-import MembershipCard from "../components/MembershipCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDumbbell, faHandshake } from "@fortawesome/free-solid-svg-icons";
 import { GiWeightLiftingUp } from "react-icons/gi";
@@ -120,10 +119,6 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-        </section>
-
-        <section className="py-5">
-          <MembershipCard />
         </section>
       </Container>
     </div>

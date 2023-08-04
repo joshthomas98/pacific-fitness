@@ -9,3 +9,20 @@
   align-items: center; /* Vertical centering */
   height: 100vh; /* Adjust this value as needed */
 }
+
+/* Social media icons */
+.facebook-icon:hover {
+  color: #1877f2; /* Facebook official color */
+}
+
+.instagram-icon:hover {
+  color: #e1306c; /* Instagram official color */
+}
+
+.twitter-icon:hover {
+  color: #1da1f2; /* Twitter official color */
+}
+
+.youtube-icon:hover {
+  color: #ff0000; /* YouTube official red color */
+}
