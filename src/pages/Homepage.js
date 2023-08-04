@@ -17,6 +17,18 @@ const Homepage = () => {
           <Testimonials />
         </section>
 
+        <section className="text-center">
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/6x-jAOL-DV8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+
         <section className="py-5">
           <MembershipCard />
         </section>

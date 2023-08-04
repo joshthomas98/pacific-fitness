@@ -40,48 +40,71 @@ const LegRoom = () => {
 
       <div className="pt-3">
         <div className="row pb-4">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              className="img-fluid w-75"
-              src="../../images/chest-and-back-room/DSC08832.jpg"
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08862.jpg"
               alt="Image 1"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              className="img-fluid w-75"
-              src="../../images/chest-and-back-room/DSC08833.jpg"
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08863.jpg"
               alt="Image 2"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              className="img-fluid w-75"
-              src="../../images/chest-and-back-room/DSC08834.jpg"
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08864.jpg"
               alt="Image 3"
+            />
+          </div>
+          <div className="col-md-3">
+            <img
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08865.jpg"
+              alt="Image 4"
             />
           </div>
         </div>
         <div className="row pb-4">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              className="img-fluid w-75"
-              src="../../images/chest-and-back-room/DSC08837.jpg"
-              alt="Image 4"
-            />
-          </div>
-          <div className="col-md-4">
-            <img
-              className="img-fluid w-75"
-              src="../../images/chest-and-back-room/DSC08839.jpg"
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08866.jpg"
               alt="Image 5"
             />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-3">
             <img
-              className="img-fluid w-75"
-              src="../../images/chest-and-back-room/DSC08840.jpg"
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08867.jpg"
               alt="Image 6"
+            />
+          </div>
+          <div className="col-md-3">
+            <img
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08868.jpg"
+              alt="Image 7"
+            />
+          </div>
+          <div className="col-md-3">
+            <img
+              className="img-fluid w-100"
+              src="../../images/leg-room/DSC08869.jpg"
+              alt="Image 8"
+            />
+          </div>
+        </div>
+        <div className="row pb-4">
+          <div className="col-md-12">
+            <img
+              className="img-fluid w-25"
+              src="../../images/leg-room/DSC08870.jpg"
+              alt="Image 9"
             />
           </div>
         </div>

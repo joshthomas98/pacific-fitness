@@ -18,6 +18,7 @@ const NavbarComponent = () => {
             <Nav.Link className="text-light" href="/">
               Home
             </Nav.Link>
+
             <Dropdown as={Nav.Item}>
               <Dropdown.Toggle as={Nav.Link} className="text-light">
                 The Gym
@@ -42,15 +43,19 @@ const NavbarComponent = () => {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
+
             <Nav.Link className="text-light" href="/theteam">
               The Team
             </Nav.Link>
+
             <Nav.Link className="text-light" href="/classes">
               Classes
             </Nav.Link>
+
             <Nav.Link className="text-light" href="/news">
               News
             </Nav.Link>
+
             <Nav.Link className="text-light" href="/contact">
               Contact
             </Nav.Link>

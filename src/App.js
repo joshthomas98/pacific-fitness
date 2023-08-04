@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import SocialMediaIcons from "./components/SocialMediaIcons";
 import Homepage from "./pages/Homepage";
@@ -15,6 +16,7 @@ import ShouldersAndArmsRoom from "./pages/ShouldersAndArmsRoom";
 import StrengthRoom from "./pages/StrengthRoom";
 import HIITRoom from "./pages/HIITRoom";
 import BoxingAndBikesRoom from "./pages/BoxingAndBikesRoom";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -43,7 +45,10 @@ const App = () => {
           <Route path="hiitroom" element={<HIITRoom />} />
 
           <Route path="boxingandbikesroom" element={<BoxingAndBikesRoom />} />
+
+          <Route path="contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Container>
     </BrowserRouter>
   );
