@@ -1,3 +1,11 @@
 * {
   background-color: #111111;
 }
+
+/* Carousel */
+.center-carousel {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Adjust this value as needed */
+}

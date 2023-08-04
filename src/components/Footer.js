@@ -11,87 +11,73 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
   faTwitter,
-  faGoogle,
   faInstagram,
-  faLinkedinIn,
-  faGithub,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function App() {
   return (
     <MDBFooter className="text-center" color="white" bgColor="dark">
       <MDBContainer className="p-4">
-        <section className="mb-4">
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-2"
-            href="#!"
-            role="button"
-          >
-            <FontAwesomeIcon icon={faFacebookF} />
-          </MDBBtn>
+        <div className="row">
+          <div className="col-md-4">
+            <p className="pt-3">
+              <i className="bi-telephone-fill text-light"></i> 01443 843230
+            </p>
+          </div>
+          <div className="col-md-4">
+            <MDBBtn
+              outline
+              color="light"
+              floating
+              className="m-2"
+              href="#!"
+              role="button"
+            >
+              <FontAwesomeIcon icon={faFacebookF} />
+            </MDBBtn>
 
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-2"
-            href="#!"
-            role="button"
-          >
-            <FontAwesomeIcon icon={faInstagram} />
-          </MDBBtn>
+            <MDBBtn
+              outline
+              color="light"
+              floating
+              className="m-2"
+              href="#!"
+              role="button"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </MDBBtn>
 
-          <MDBBtn
-            outline
-            color="light"
-            floating
-            className="m-2"
-            href="#!"
-            role="button"
-          >
-            <FontAwesomeIcon icon={faTwitter} />
-          </MDBBtn>
-        </section>
+            <MDBBtn
+              outline
+              color="light"
+              floating
+              className="m-2"
+              href="#!"
+              role="button"
+            >
+              <FontAwesomeIcon icon={faYoutube} />
+            </MDBBtn>
 
-        {/* <section className="">
-          <form action="">
-            <MDBRow className="d-flex justify-content-center">
-              <MDBCol size="auto">
-                <p className="pt-2">
-                  <strong>Sign up for our newsletter</strong>
-                </p>
-              </MDBCol>
-
-              <MDBCol md="5" start>
-                <MDBInput
-                  contrast
-                  type="email"
-                  placeholder="Enter your email address"
-                  className="mb-4"
-                />
-              </MDBCol>
-
-              <MDBCol size="auto">
-                <MDBBtn outline color="light" type="submit" className="mb-4">
-                  Subscribe
-                </MDBBtn>
-              </MDBCol>
-            </MDBRow>
-          </form>
-        </section> */}
-
-        <p>
-          <i className="bi bi-telephone-fill text-light"></i> 01443 843230
-        </p>
+            <MDBBtn
+              outline
+              color="light"
+              floating
+              className="m-2"
+              href="#!"
+              role="button"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </MDBBtn>
+          </div>
+          <div className="col-md-4">
+            <p className="pt-3">
+              <i className="bi bi-envelope"></i> info@pacificfitness.co.uk
+            </p>
+          </div>
+        </div>
       </MDBContainer>
-
-      <div
-        className="text-center p-3"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-      >
+      <div className="text-center pb-3">
         © 2023 Copyright {""}
         <a className="text-white" href="https://mdbootstrap.com/">
           Pacific Fitness

@@ -15,12 +15,20 @@ const NavbarComponent = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-between">
           <Nav className="ms-auto">
-            <Nav.Link className="text-light" href="/">
+            <Nav.Link
+              className="text-light"
+              style={{ fontSize: "20px" }}
+              href="/"
+            >
               Home
             </Nav.Link>
 
             <Dropdown as={Nav.Item}>
-              <Dropdown.Toggle as={Nav.Link} className="text-light">
+              <Dropdown.Toggle
+                as={Nav.Link}
+                className="text-light"
+                style={{ fontSize: "20px" }}
+              >
                 The Gym
               </Dropdown.Toggle>
               <Dropdown.Menu>
@@ -44,19 +52,27 @@ const NavbarComponent = () => {
               </Dropdown.Menu>
             </Dropdown>
 
-            <Nav.Link className="text-light" href="/theteam">
+            <Nav.Link
+              className="text-light"
+              style={{ fontSize: "20px" }}
+              href="/theteam"
+            >
               The Team
             </Nav.Link>
 
-            <Nav.Link className="text-light" href="/classes">
-              Classes
-            </Nav.Link>
-
-            <Nav.Link className="text-light" href="/news">
+            <Nav.Link
+              className="text-light"
+              style={{ fontSize: "20px" }}
+              href="/news"
+            >
               News
             </Nav.Link>
 
-            <Nav.Link className="text-light" href="/contact">
+            <Nav.Link
+              className="text-light"
+              style={{ fontSize: "20px" }}
+              href="/contact"
+            >
               Contact
             </Nav.Link>
           </Nav>

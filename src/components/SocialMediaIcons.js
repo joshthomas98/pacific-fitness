@@ -1,9 +1,9 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const SocialMediaIcons = () => {
   return (
-    <div className="d-flex justify-content-end text-light pt-2">
+    <div className="d-flex text-light pt-3">
       <div className="d-flex mb-3">
         <a
           target={"_blank"}
@@ -19,6 +19,14 @@ const SocialMediaIcons = () => {
           className="social-icon instagram-icon mr-3 h2 px-1 ml-auto"
         >
           <FaInstagram />
+        </a>
+
+        <a
+          target={"_blank"}
+          href="https://www.youtube.com/@pacificfitnessuk"
+          className="social-icon youtube-icon mr-3 h2 px-1 ml-auto"
+        >
+          <FaYoutube />
         </a>
 
         <a

@@ -22,7 +22,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <Container>
-        <SocialMediaIcons />
+        <div className="d-flex justify-content-end">
+          <SocialMediaIcons />
+        </div>
         <Navbar />
         <Routes>
           <Route index element={<Homepage />} />
