@@ -18,6 +18,7 @@ import HIITRoom from "./pages/HIITRoom";
 import BoxingAndBikesRoom from "./pages/BoxingAndBikesRoom";
 import Contact from "./pages/Contact";
 import Membership from "./components/Membership";
+import TheTeam from "./pages/TheTeam";
 
 const App = () => {
   return (
@@ -52,6 +53,8 @@ const App = () => {
           <Route path="contact" element={<Contact />} />
 
           <Route path="membership" element={<Membership />} />
+
+          <Route path="theteam" element={<TheTeam />} />
         </Routes>
         <Footer />
       </Container>
