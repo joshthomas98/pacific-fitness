@@ -10,7 +10,9 @@ import {
 export default function App() {
   return (
     <div>
-      <h1 className="text-light text-center pb-4">The Team</h1>
+      <h1 className="text-center pb-4" style={{ color: "#eccf42" }}>
+        The Team
+      </h1>
       <div className="container">
         <div className="row">
           <div className="col-md-4">

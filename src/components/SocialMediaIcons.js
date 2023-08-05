@@ -3,7 +3,10 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const SocialMediaIcons = () => {
   return (
-    <div className="d-flex text-light pt-3 social-media-icons-container justify-content-center">
+    <div
+      className="d-flex pt-3 social-media-icons-container justify-content-center"
+      style={{ color: "#eccf42" }}
+    >
       <a
         target={"_blank"}
         href="https://www.facebook.com/PacificFitness"

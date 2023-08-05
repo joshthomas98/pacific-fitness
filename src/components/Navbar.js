@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 
 const NavbarComponent = () => {
   return (
-    <Navbar className="text-light" expand="sm">
+    <Navbar className="gold-text-navbar" expand="sm">
       <Container>
         <Navbar.Brand href="/">
           <img
@@ -15,19 +15,14 @@ const NavbarComponent = () => {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-between">
           <Nav className="ms-auto">
-            <Nav.Link
-              className="text-light"
-              style={{ fontSize: "20px" }}
-              href="/"
-            >
+            <Nav.Link style={{ fontSize: "22px", color: "#eccf42" }} href="/">
               Home
             </Nav.Link>
 
             <Dropdown as={Nav.Item}>
               <Dropdown.Toggle
                 as={Nav.Link}
-                className="text-light"
-                style={{ fontSize: "20px" }}
+                style={{ fontSize: "22px", color: "#eccf42" }}
               >
                 The Gym
               </Dropdown.Toggle>
@@ -53,36 +48,44 @@ const NavbarComponent = () => {
             </Dropdown>
 
             <Nav.Link
-              className="text-light"
-              style={{ fontSize: "20px" }}
+              style={{ fontSize: "22px", color: "#eccf42" }}
               href="/theteam"
             >
               The Team
             </Nav.Link>
 
             <Nav.Link
-              className="text-light"
-              style={{ fontSize: "20px" }}
+              style={{ fontSize: "22px", color: "#eccf42" }}
               href="/news"
             >
               News
             </Nav.Link>
 
             <Nav.Link
-              className="text-light"
-              style={{ fontSize: "20px" }}
+              style={{ fontSize: "22px", color: "#eccf42" }}
               href="/contact"
             >
               Contact
             </Nav.Link>
 
             <Nav.Link
-              className="text-light"
-              style={{ fontSize: "20px" }}
+              style={{ fontSize: "22px", color: "#eccf42" }}
               href="/membership"
             >
               Membership
             </Nav.Link>
+
+            <style>
+              {`
+                .nav-link:hover,
+                .active-link,
+                .dropdown-toggle:hover,
+                .dropdown-toggle:active,
+                .dropdown-menu.show {
+                  color: white !important;
+                }
+              `}
+            </style>
           </Nav>
         </Navbar.Collapse>
       </Container>

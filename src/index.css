@@ -2,6 +2,11 @@
   background-color: #111111;
 }
 
+/* Navbar */
+.gold-text-navbar .nav-link {
+  color: #eccf42;
+}
+
 /* Carousel */
 .center-carousel {
   display: flex;

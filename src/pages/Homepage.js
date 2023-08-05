@@ -20,7 +20,7 @@ const Homepage = () => {
         <section className="text-center pt-5 pb-5">
           <div className="row justify-content-center">
             <div className="col-md-6">
-              <h2 className="text-light pb-2">
+              <h2 className="pb-2" style={{ color: "#eccf42" }}>
                 Want to find out more about us?
               </h2>
 
@@ -72,13 +72,21 @@ const Homepage = () => {
           <div className="container">
             <div className="row text-center g-4">
               <div className="col-md">
-                <div className="homepage-card bg-secondary text-light">
+                <div className="homepage-card bg-secondary">
                   <div className="card-body text-center p-3">
                     <div className="h1 mb-3">
-                      <FontAwesomeIcon icon={faDumbbell} />
+                      <FontAwesomeIcon
+                        icon={faDumbbell}
+                        style={{ color: "#eccf42" }}
+                      />
                     </div>
-                    <h3 className="card-title mb-3">Quality Equipment</h3>
-                    <p className="card-text">
+                    <h3
+                      className="card-title mb-3"
+                      style={{ color: "#eccf42" }}
+                    >
+                      Quality Equipment
+                    </h3>
+                    <p className="text-light card-text">
                       A diverse selection of state-of-the-art equipment,
                       carefully selected to enhance your workout experience and
                       maximise results.
@@ -88,13 +96,21 @@ const Homepage = () => {
               </div>
 
               <div className="col-md">
-                <div className="homepage-card bg-secondary text-light">
+                <div className="homepage-card bg-secondary">
                   <div className="card-body text-center p-3">
                     <div className="h1 mb-3">
-                      <FontAwesomeIcon icon={faHandshake} />
+                      <FontAwesomeIcon
+                        icon={faHandshake}
+                        style={{ color: "#eccf42" }}
+                      />
                     </div>
-                    <h3 className="card-title mb-3">Motivation & Support</h3>
-                    <p className="card-text">
+                    <h3
+                      className="card-title mb-3"
+                      style={{ color: "#eccf42" }}
+                    >
+                      Motivation & Support
+                    </h3>
+                    <p className="text-light card-text">
                       With our supportive team of trainers and staff, you'll
                       stay inspired, driven and motivated throughout your
                       fitness journey.
@@ -107,10 +123,15 @@ const Homepage = () => {
                 <div className="homepage-card bg-secondary text-light">
                   <div className="card-body text-center p-3">
                     <div className="h1 mb-3">
-                      <GiWeightLiftingUp />
+                      <GiWeightLiftingUp style={{ color: "#eccf42" }} />
                     </div>
-                    <h3 className="card-title mb-3">Achieve your goals</h3>
-                    <p className="card-text">
+                    <h3
+                      className="card-title mb-3"
+                      style={{ color: "#eccf42" }}
+                    >
+                      Achieve your goals
+                    </h3>
+                    <p className="text-light card-text">
                       Witness your fitness aspirations turn into achievements,
                       as we provide a motivating environment for your success.
                     </p>
