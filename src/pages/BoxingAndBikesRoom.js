@@ -2,10 +2,12 @@ import React from "react";
 
 const BoxingAndBikesRoom = () => {
   return (
-    <div className="text-light text-center">
-      <h1 className="pb-3">Boxing And Bikes Room</h1>
+    <div className="text-center">
+      <h1 className="pb-3" style={{ color: "#eccf42" }}>
+        Boxing And Bikes Room
+      </h1>
 
-      <div className="container">
+      <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Last but certainly not least is our action-packed Boxing and Bikes
           Room! This room is equipped with an array of equipment designed to
@@ -79,6 +81,7 @@ const BoxingAndBikesRoom = () => {
           <a
             target="blank"
             href="https://youtube.com/shorts/HJ9UimPMxIw?feature=share"
+            style={{ fontSize: "22px", color: "#eccf42" }}
           >
             Click here to see more of our Boxing and Bikes Room
           </a>

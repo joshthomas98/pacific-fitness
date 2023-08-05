@@ -2,10 +2,12 @@ import React from "react";
 
 const StrengthRoom = () => {
   return (
-    <div className="text-light text-center">
-      <h1 className="pb-3">Strength Room</h1>
+    <div className="text-center">
+      <h1 className="pb-3" style={{ color: "#eccf42" }}>
+        Strength Room
+      </h1>
 
-      <div className="container">
+      <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           First up is our Strength Room, which is entirely dedicated to strength
           training. It features a number of power racks and deadlift platforms,
@@ -87,6 +89,7 @@ const StrengthRoom = () => {
           <a
             target="blank"
             href="https://youtube.com/shorts/6VYC_61NT9I?feature=share"
+            style={{ fontSize: "22px", color: "#eccf42" }}
           >
             Click here to see more of our Strength Room
           </a>

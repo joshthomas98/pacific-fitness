@@ -2,10 +2,12 @@ import React from "react";
 
 const LegRoom = () => {
   return (
-    <div className="text-light text-center">
-      <h1 className="pb-3">Leg Room</h1>
+    <div className="text-center">
+      <h1 className="pb-3" style={{ color: "#eccf42" }}>
+        Leg Room
+      </h1>
 
-      <div className="container">
+      <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Now, let’s dive into our leg room – a standout feature here at Pacific
           Fitness that we’re truly proud of and in our opinion, the best leg

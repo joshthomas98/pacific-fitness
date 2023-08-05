@@ -2,10 +2,12 @@ import React from "react";
 
 const CardioAndAbsRoom = () => {
   return (
-    <div className="text-light text-center">
-      <h1 className="pb-3">Cardio And Abs Room</h1>
+    <div className="text-center">
+      <h1 className="pb-3" style={{ color: "#eccf42" }}>
+        Cardio And Abs Room
+      </h1>
 
-      <div className="container">
+      <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Welcome to our state-of-the-art cardio and abs room at Pacific
           Fitness! This ultimate haven for fitness enthusiasts elevates your
@@ -93,6 +95,7 @@ const CardioAndAbsRoom = () => {
           <a
             target="blank"
             href="https://youtube.com/shorts/eeeI43qQS6U?feature=share"
+            style={{ fontSize: "22px", color: "#eccf42" }}
           >
             Click here to see more of our Cardio and Abs Room
           </a>

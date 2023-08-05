@@ -2,10 +2,12 @@ import React from "react";
 
 const ShouldersAndArmsRoom = () => {
   return (
-    <div className="text-light text-center">
-      <h1 className="pb-3">Shoulders And Arms Room</h1>
+    <div className="text-center">
+      <h1 className="pb-3" style={{ color: "#eccf42" }}>
+        Shoulders And Arms Room
+      </h1>
 
-      <div className="container">
+      <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Welcome to our dedicated Shoulders and Arms Room! In this room, you
           will find a comprehensive range of equipment designed to target your

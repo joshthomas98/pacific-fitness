@@ -23,7 +23,10 @@ export default function App() {
                 alt="..."
               />
               <MDBCardBody>
-                <MDBCardTitle className="text-center text-light">
+                <MDBCardTitle
+                  className="text-center"
+                  style={{ color: "#eccf42" }}
+                >
                   Ali
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
@@ -42,7 +45,10 @@ export default function App() {
                 alt="..."
               />
               <MDBCardBody>
-                <MDBCardTitle className="text-center text-light">
+                <MDBCardTitle
+                  className="text-center"
+                  style={{ color: "#eccf42" }}
+                >
                   Cath
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
@@ -61,7 +67,10 @@ export default function App() {
                 alt="..."
               />
               <MDBCardBody>
-                <MDBCardTitle className="text-center text-light">
+                <MDBCardTitle
+                  className="text-center"
+                  style={{ color: "#eccf42" }}
+                >
                   Geraint
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
@@ -84,7 +93,10 @@ export default function App() {
                   alt="..."
                 />
                 <MDBCardBody>
-                  <MDBCardTitle className="text-center text-light">
+                  <MDBCardTitle
+                    className="text-center"
+                    style={{ color: "#eccf42" }}
+                  >
                     Liam
                   </MDBCardTitle>
                   <MDBCardText className="text-center text-light">
@@ -104,8 +116,11 @@ export default function App() {
                   alt="..."
                 />
                 <MDBCardBody>
-                  <MDBCardTitle className="text-center text-light">
-                    Peachy
+                  <MDBCardTitle
+                    className="text-center"
+                    style={{ color: "#eccf42" }}
+                  >
+                    Richard (Peachy)
                   </MDBCardTitle>
                   <MDBCardText className="text-center text-light">
                     Some quick example text to build on the card title and make

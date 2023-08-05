@@ -3,11 +3,15 @@ import Card from "react-bootstrap/Card";
 function Membership() {
   return (
     <div>
-      <h1 className="text-center text-light pb-5">Membership</h1>
+      <h1 className="text-center pb-5" style={{ color: "#eccf42" }}>
+        Membership
+      </h1>
       <div className="row">
         <div className="col-md-6">
           <div className="offset-md-2">
-            <h2 className="text-light pb-2">Why become a Pacific Member?</h2>
+            <h2 className="pb-2" style={{ color: "#eccf42" }}>
+              Why become a Pacific Member?
+            </h2>
 
             <ul className="text-light">
               <li className="pb-2">
@@ -32,7 +36,7 @@ function Membership() {
               </li>
             </ul>
 
-            <h2 className="text-light pt-3 pb-2">
+            <h2 className="pt-3 pb-2" style={{ color: "#eccf42" }}>
               Included in your membership:
             </h2>
 
@@ -67,11 +71,14 @@ function Membership() {
                 className="p-4"
               />
               <Card.Body>
-                <Card.Title className="text-center">
+                <Card.Title
+                  className="text-center"
+                  style={{ color: "#eccf42" }}
+                >
                   Pacific Membership
                 </Card.Title>
                 <Card.Text className="text-center pb-3">
-                  £49.99 per month
+                  £50.00 per month
                 </Card.Text>
                 <hr
                   style={{ borderTop: "3px solid #fff", margin: "-10px 0" }}
@@ -84,8 +91,12 @@ function Membership() {
                 </Card.Text>
 
                 <div className="text-center pb-2">
-                  <Card.Link href="/contact">Get in touch</Card.Link>
-                  <Card.Link href="/">Back to homepage</Card.Link>
+                  <Card.Link href="/contact" style={{ color: "#eccf42" }}>
+                    Get in touch
+                  </Card.Link>
+                  <Card.Link href="/" style={{ color: "#eccf42" }}>
+                    Back to homepage
+                  </Card.Link>
                 </div>
               </Card.Body>
             </Card>

@@ -2,10 +2,12 @@ import React from "react";
 
 const ChestAndBackRoom = () => {
   return (
-    <div className="text-light text-center">
-      <h1 className="pb-3">Chest And Back Room</h1>
+    <div className="text-center">
+      <h1 className="pb-3" style={{ color: "#eccf42" }}>
+        Chest And Back Room
+      </h1>
 
-      <div className="container">
+      <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Next up is the Chest and Back Room. At Pacific Fitness, we believe in
           providing our members with nothing but the best, and this room is a
@@ -102,6 +104,7 @@ const ChestAndBackRoom = () => {
           <a
             target="blank"
             href="https://youtube.com/shorts/ZF5MYbBnb_A?feature=share"
+            style={{ fontSize: "22px", color: "#eccf42" }}
           >
             Click here to see more of our Chest and Back Room
           </a>

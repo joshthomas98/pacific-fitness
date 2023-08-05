@@ -2,10 +2,12 @@ import React from "react";
 
 const HIITRoom = () => {
   return (
-    <div className="text-light text-center">
-      <h1 className="pb-3">HIIT Room</h1>
+    <div className="text-center">
+      <h1 className="pb-3" style={{ color: "#eccf42" }}>
+        HIIT Room
+      </h1>
 
-      <div className="container">
+      <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Up next is our HIIT Room at Pacific Fitness, the ultimate destination
           for high-intensity training enthusiasts! As you step into this dynamic

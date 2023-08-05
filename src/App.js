@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 
 import SocialMediaIcons from "./components/SocialMediaIcons";
 import Homepage from "./pages/Homepage";
-import TheGymOLD from "./pages/TheGymOLD";
 
 import LegRoom from "./pages/LegRoom";
 import CardioAndAbsRoom from "./pages/CardioAndAbsRoom";
@@ -16,9 +15,10 @@ import ShouldersAndArmsRoom from "./pages/ShouldersAndArmsRoom";
 import StrengthRoom from "./pages/StrengthRoom";
 import HIITRoom from "./pages/HIITRoom";
 import BoxingAndBikesRoom from "./pages/BoxingAndBikesRoom";
-import Contact from "./pages/Contact";
+import ContactInfoAndLocation from "./pages/ContactInfoAndLocation";
 import Membership from "./components/Membership";
 import TheTeam from "./pages/TheTeam";
+import NewsAndEvents from "./pages/NewsAndEvents";
 
 const App = () => {
   return (
@@ -30,8 +30,6 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route index element={<Homepage />} />
-
-          <Route path="thegymold" element={<TheGymOLD />} />
 
           <Route path="legroom" element={<LegRoom />} />
 
@@ -50,11 +48,13 @@ const App = () => {
 
           <Route path="boxingandbikesroom" element={<BoxingAndBikesRoom />} />
 
-          <Route path="contact" element={<Contact />} />
+          <Route path="contact" element={<ContactInfoAndLocation />} />
 
           <Route path="membership" element={<Membership />} />
 
           <Route path="theteam" element={<TheTeam />} />
+
+          <Route path="newsandevents" element={<NewsAndEvents />} />
         </Routes>
         <Footer />
       </Container>

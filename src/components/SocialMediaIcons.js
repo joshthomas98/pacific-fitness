@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
-const SocialMediaIcons = () => {
+const SocialMediaIcons = ({ size }) => {
   return (
     <div
       className="d-flex pt-3 social-media-icons-container justify-content-center"
@@ -12,7 +12,7 @@ const SocialMediaIcons = () => {
         href="https://www.facebook.com/PacificFitness"
         className="social-icon facebook-icon mr-3 h2 px-1"
       >
-        <FaFacebook />
+        <FaFacebook style={{ fontSize: size }} />
       </a>
 
       <a
@@ -20,7 +20,7 @@ const SocialMediaIcons = () => {
         href="https://www.instagram.com/pacific_supergym/?hl=en"
         className="social-icon instagram-icon mr-3 h2 px-1"
       >
-        <FaInstagram />
+        <FaInstagram style={{ fontSize: size }} />
       </a>
 
       <a
@@ -28,7 +28,7 @@ const SocialMediaIcons = () => {
         href="https://www.youtube.com/@pacificfitnessuk"
         className="social-icon youtube-icon mr-3 h2 px-1"
       >
-        <FaYoutube />
+        <FaYoutube style={{ fontSize: size }} />
       </a>
 
       <a
@@ -36,7 +36,7 @@ const SocialMediaIcons = () => {
         href="https://www.twitter.com/pacificfitness"
         className="social-icon twitter-icon mr-3 h2 px-1"
       >
-        <FaTwitter />
+        <FaTwitter style={{ fontSize: size }} />
       </a>
     </div>
   );

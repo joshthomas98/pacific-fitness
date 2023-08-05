@@ -56,7 +56,7 @@ const NavbarComponent = () => {
 
             <Nav.Link
               style={{ fontSize: "22px", color: "#eccf42" }}
-              href="/news"
+              href="/newsandevents"
             >
               News
             </Nav.Link>
