@@ -30,8 +30,10 @@ export default function App() {
                   Ali
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, nisi minima voluptatem ducimus repudiandae porro!
+                  Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
+                  dolorum eligendi consequatur voluptates autem tenetur.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -52,8 +54,10 @@ export default function App() {
                   Cath
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, nisi minima voluptatem ducimus repudiandae porro!
+                  Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
+                  dolorum eligendi consequatur voluptates autem tenetur.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -74,8 +78,10 @@ export default function App() {
                   Geraint
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, nisi minima voluptatem ducimus repudiandae porro!
+                  Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
+                  dolorum eligendi consequatur voluptates autem tenetur.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -100,8 +106,10 @@ export default function App() {
                     Liam
                   </MDBCardTitle>
                   <MDBCardText className="text-center text-light">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, nisi minima voluptatem ducimus repudiandae porro!
+                    Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
+                    dolorum eligendi consequatur voluptates autem tenetur.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCard>
@@ -123,8 +131,10 @@ export default function App() {
                     Richard (Peachy)
                   </MDBCardTitle>
                   <MDBCardText className="text-center text-light">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, nisi minima voluptatem ducimus repudiandae porro!
+                    Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
+                    dolorum eligendi consequatur voluptates autem tenetur.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCard>
