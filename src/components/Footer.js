@@ -38,11 +38,12 @@ export default function App() {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <div className="text-center pb-3" style={{ color: "#eccf42" }}>
+      <div className="text-center pb-2" style={{ color: "#eccf42" }}>
         © 2023 Copyright {""}
         <a style={{ color: "#eccf42" }} href="https://mdbootstrap.com/">
           Pacific Fitness
         </a>
+        <p className="pt-1">Designed and Developed by Tech Minds Consulting</p>
       </div>
     </MDBFooter>
   );

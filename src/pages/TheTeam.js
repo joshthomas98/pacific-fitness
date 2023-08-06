@@ -30,10 +30,10 @@ export default function App() {
                   Ali
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellat, nisi minima voluptatem ducimus repudiandae porro!
-                  Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
-                  dolorum eligendi consequatur voluptates autem tenetur.
+                  Ali, the gym owner, deeply passionate about bodybuilding, has
+                  been involved in the industry for years and has travelled
+                  extensively to expos and competitions like Arnold Classic and
+                  Mr. Olympia.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -54,10 +54,10 @@ export default function App() {
                   Cath
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellat, nisi minima voluptatem ducimus repudiandae porro!
-                  Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
-                  dolorum eligendi consequatur voluptates autem tenetur.
+                  Cath brings her dance background and love for group exercise
+                  classes to the gym. She teaches Spin, HIIT, and Boogie Bounce,
+                  and is also manager and therefore the go-to person for any
+                  concerns.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -78,10 +78,9 @@ export default function App() {
                   Geraint
                 </MDBCardTitle>
                 <MDBCardText className="text-center text-light">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repellat, nisi minima voluptatem ducimus repudiandae porro!
-                  Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
-                  dolorum eligendi consequatur voluptates autem tenetur.
+                  A dedicated powerlifter, Geraint loves all things strength.
+                  Beyond the gym, he enjoys outdoor adventures, often camping in
+                  remote areas like a Welsh Bear Grylls!
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -106,10 +105,10 @@ export default function App() {
                     Liam
                   </MDBCardTitle>
                   <MDBCardText className="text-center text-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Repellat, nisi minima voluptatem ducimus repudiandae porro!
-                    Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
-                    dolorum eligendi consequatur voluptates autem tenetur.
+                    Liam, with a masters degree in Sport and Exercise Science
+                    and a background in boxing and rugby, plays a pivotal role
+                    instructing the gym's Circuits, Bootcamp, and Boxing
+                    circuits classes.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCard>
@@ -128,13 +127,13 @@ export default function App() {
                     className="text-center"
                     style={{ color: "#eccf42" }}
                   >
-                    Richard (Peachy)
+                    Richard
                   </MDBCardTitle>
                   <MDBCardText className="text-center text-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Repellat, nisi minima voluptatem ducimus repudiandae porro!
-                    Vero ipsum ipsa tempora soluta quas quod recusandae. Minima
-                    dolorum eligendi consequatur voluptates autem tenetur.
+                    Richard, a former Welsh Champion Powerlifter with an
+                    impressive range of talents, is a dab hand at almost
+                    everything. His versatility makes him a valuable asset,
+                    contributing to various aspects of the gym.
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCard>
