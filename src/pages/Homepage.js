@@ -63,7 +63,7 @@ const Homepage = () => {
         </section>
 
         {/* Testimonials section */}
-        <section className="py-5">
+        <section className="pt-5 pb-4">
           <Testimonials />
         </section>
 
