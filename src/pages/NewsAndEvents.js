@@ -5,7 +5,7 @@ const NewsAndEvents = () => {
   return (
     <div>
       <h1 className="text-center pb-4" style={{ color: "#eccf42" }}>
-        News
+        News and Events
       </h1>
 
       <div className="container">
