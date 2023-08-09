@@ -40,7 +40,7 @@ export default function App() {
       </MDBContainer>
       <div className="text-center pb-2" style={{ color: "#eccf42" }}>
         © 2023 Copyright {""}
-        <a style={{ color: "#eccf42" }} href="https://mdbootstrap.com/">
+        <a style={{ color: "#eccf42" }} href="https://pacificfitness.co.uk/">
           Pacific Fitness
         </a>
         <p className="pt-1">Designed and Developed by Tech Minds Consulting</p>
