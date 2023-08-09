@@ -9,7 +9,7 @@ const HIITRoom = () => {
 
       <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
-          Up next is our HIIT Room at Pacific Fitness, the ultimate destination
+          Up next is our HIIT Room at Pacific Supergym, the ultimate destination
           for high-intensity training enthusiasts! As you step into this dynamic
           space, you'll be greeted by a fully astroturfed floor, setting the
           stage for an energetic and invigorating workout.

@@ -10,7 +10,7 @@ const LegRoom = () => {
       <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Now, let’s dive into our leg room – a standout feature here at Pacific
-          Fitness that we’re truly proud of and in our opinion, the best leg
+          Supergym that we’re truly proud of and that we believe is the best leg
           room Wales has ever had…
         </p>
 

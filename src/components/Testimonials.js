@@ -24,7 +24,7 @@ const Testimonials = () => {
                     Samantha
                   </h3>
                   <p className="card-text text-light">
-                    "Pacific Fitness transformed my life! The supportive
+                    "Pacific Supergym transformed my life! The supportive
                     community and top-notch trainers helped me achieve my
                     fitness goals like never before." — Samantha
                   </p>
@@ -43,7 +43,7 @@ const Testimonials = () => {
                     Michael
                   </h3>
                   <p className="card-text text-light">
-                    "Joining Pacific Fitness was the best decision ever. The
+                    "Joining Pacific Supergym was the best decision ever. The
                     variety of classes and motivating instructors keep me coming
                     back for more!" — Michael
                   </p>
@@ -62,7 +62,7 @@ const Testimonials = () => {
                     Emily
                   </h3>
                   <p className="card-text text-light">
-                    "I love the positive atmosphere at Pacific Fitness. The
+                    "I love the positive atmosphere at Pacific Supergym. The
                     state-of-the-art equipment and friendly staff make every
                     workout enjoyable." — Emily
                   </p>
@@ -81,7 +81,7 @@ const Testimonials = () => {
                     Jason
                   </h3>
                   <p className="card-text text-light">
-                    "Pacific Fitness is amazing! Thanks to their personalized
+                    "Pacific Supergym is amazing! Thanks to their personalized
                     training, I've seen incredible progress in my strength and
                     confidence." — Jason
                   </p>

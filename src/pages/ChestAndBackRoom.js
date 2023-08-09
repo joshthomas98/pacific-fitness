@@ -9,7 +9,7 @@ const ChestAndBackRoom = () => {
 
       <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
-          Next up is the Chest and Back Room. At Pacific Fitness, we believe in
+          Next up is the Chest and Back Room. At Pacific Supergym, we believe in
           providing our members with nothing but the best, and this room is a
           testament to that commitment. Our owner, Ali, has handpicked each
           piece of equipment with utmost care and precision to ensure you have
@@ -22,7 +22,7 @@ const ChestAndBackRoom = () => {
           challenge your chest muscles from every conceivable angle. Whether
           you’re looking to sculpt a defined chest, enhance your bench press
           strength, or increase overall upper body power, we have the perfect
-          equipment for you. We have custom-made, Pacific Fitness branded
+          equipment for you. We have custom-made, Pacific Supergym branded
           dumbbells ranging from 2.5 kg to 50 kg as well as Smith machines,
           incline press, decline press, flat press, and fly machines.
         </p>

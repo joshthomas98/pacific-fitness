@@ -10,17 +10,17 @@ const CardioAndAbsRoom = () => {
       <div className="container text-light" style={{ fontSize: "18px" }}>
         <p>
           Welcome to our state-of-the-art cardio and abs room at Pacific
-          Fitness! This ultimate haven for fitness enthusiasts elevates your
+          Supergym! This ultimate haven for fitness enthusiasts elevates your
           cardiovascular training and helps you achieve your health goals. Step
           into a world of cutting-edge fitness equipment and get a great workout
           every time.
         </p>
 
         <p>
-          At Pacific Fitness, we value the importance of cardiovascular exercise
-          for overall fitness and well-being. That’s why we’ve spared no expense
-          in curating a top-notch selection of cardio equipment, catering to all
-          fitness levels and preferences.
+          At Pacific Supergym, we value the importance of cardiovascular
+          exercise for overall fitness and well-being. That’s why we’ve spared
+          no expense in curating a top-notch selection of cardio equipment,
+          catering to all fitness levels and preferences.
         </p>
 
         <p>

@@ -25,7 +25,7 @@ const Homepage = () => {
               </h2>
 
               <p className="text-light lead">
-                Take a virtual tour of Pacific Fitness with our owner, Ali, as
+                Take a virtual tour of Pacific Supergym with our owner, Ali, as
                 he guides you through each of our state-of-the-art rooms.
                 Discover our Strength Room, Leg Room, Cardio and Abs Room, Chest
                 and Back Room, Shoulders and Arms Room, HIIT Room, and Boxing
@@ -35,7 +35,7 @@ const Homepage = () => {
               <p className="text-light lead">
                 Get a sneak peek at the top-notch equipment and facilities we
                 offer to enhance your workout experience and help you achieve
-                your fitness goals. Watch the video and see why Pacific Fitness
+                your fitness goals. Watch the video and see why Pacific Supergym
                 is the perfect place for your fitness journey!
               </p>
 

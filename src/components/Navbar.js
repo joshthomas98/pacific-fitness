@@ -66,7 +66,7 @@ const NavbarComponent = () => {
             <img
               src="../../images/pacific_logo.png"
               className="d-inline-block align-top mb-5 mt-3"
-              alt="Pacific Fitness Logo"
+              alt="Pacific Supergym Logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav">

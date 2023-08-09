@@ -10,7 +10,7 @@ const NewsAndEvents = () => {
 
       <div className="container">
         <h3 className="text-light text-center">
-          For all the latest news and updates from Pacific Fitness<br></br> be
+          For all the latest news and updates from Pacific Supergym<br></br> be
           sure to follow us on our social media platforms.
         </h3>
 
@@ -25,7 +25,7 @@ const NewsAndEvents = () => {
       <div className="row">
         <div className="col-md-6 text-center">
           <h3 className="text-light pb-3">
-            7x Mr. Olympia Phil Heath at Pacific Fitness
+            7x Mr. Olympia Phil Heath at Pacific Supergym
           </h3>
           <iframe
             width="560"
