@@ -31,3 +31,9 @@
 .youtube-icon:hover {
   color: #ff0000; /* YouTube official red color */
 }
+
+/* In your CSS file or within your React component */
+.text-container {
+  max-width: 1100px; /* Adjust the value to your preferred maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+}

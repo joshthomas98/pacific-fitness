@@ -62,9 +62,9 @@ const Testimonials = () => {
                     Emily
                   </h3>
                   <p className="card-text text-light">
-                    "I love the positive atmosphere at Pacific Supergym. The
-                    state-of-the-art equipment and friendly staff make every
-                    workout enjoyable." — Emily
+                    "I love the positive and friendly atmosphere at Pacific
+                    Supergym. The state-of-the-art equipment and friendly staff
+                    make every workout enjoyable." — Emily
                   </p>
                 </div>
               </div>
@@ -81,9 +81,9 @@ const Testimonials = () => {
                     Jason
                   </h3>
                   <p className="card-text text-light">
-                    "Pacific Supergym is amazing! Thanks to their personalized
+                    "Pacific Supergym is amazing! Thanks to their personalised
                     training, I've seen incredible progress in my strength and
-                    confidence." — Jason
+                    confidence. Would definitely recommend." — Jason
                   </p>
                 </div>
               </div>

@@ -8,31 +8,31 @@ const StrengthRoom = () => {
       </h1>
 
       <div className="container text-light" style={{ fontSize: "18px" }}>
-        <p>
-          First up is our Strength Room, which is entirely dedicated to strength
-          training. It features a number of power racks and deadlift platforms,
-          providing you with the perfect setup to work on improving your
-          strength and power for any sport or fitness goal. The Strength Room is
-          equipped with competition benches, resistance bands, and plyometric
-          boxes to offer a wide variety of training options to suit your needs.
-        </p>
+        <div className="text-container">
+          <p>
+            First up is our Strength Room, which is entirely dedicated to
+            strength training. It features a number of power racks and deadlift
+            platforms, providing you with the perfect setup to work on improving
+            your strength and power for any sport or fitness goal. The Strength
+            Room is equipped with competition benches, resistance bands, and
+            plyometric boxes to offer a wide variety of training options to suit
+            your needs. In this room, you'll find an extensive selection of
+            barbells, catering to every type of lift and exercise. Whether
+            you're into powerlifting, Olympic weightlifting, or general strength
+            training, we have the right equipment for you. To top it all off, we
+            have calibrated Eleiko plates, ensuring precision and accuracy in
+            your training.
+          </p>
 
-        <p>
-          In this room, you'll find an extensive selection of barbells, catering
-          to every type of lift and exercise. Whether you're into powerlifting,
-          Olympic weightlifting, or general strength training, we have the right
-          equipment for you. To top it all off, we have calibrated Eleiko
-          plates, ensuring precision and accuracy in your training.
-        </p>
-
-        <p>
-          With all these top-notch facilities and equipment, our Strength Room
-          is the perfect space to increase your strength, power, and overall
-          performance, helping you reach new heights in your fitness journey.
-          Get ready to take your strength training to the next level and achieve
-          your fitness goals with the support of our well-equipped Strength
-          Room.
-        </p>
+          <p>
+            With all these top-notch facilities and equipment, our Strength Room
+            is the perfect space to increase your strength, power, and overall
+            performance, helping you reach new heights in your fitness journey.
+            Get ready to take your strength training to the next level and
+            achieve your fitness goals with the support of our well-equipped
+            Strength Room.
+          </p>
+        </div>
       </div>
 
       <div className="pt-3">

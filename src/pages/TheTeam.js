@@ -57,8 +57,8 @@ export default function App() {
                 <MDBCardText className="text-center text-light">
                   Ali, the gym owner, deeply passionate about bodybuilding, has
                   been involved in the industry for years and has travelled
-                  extensively to expos and competitions like Arnold Classic and
-                  Mr. Olympia.
+                  extensively to expos and competitions like The Arnold Classic
+                  and The Mr. Olympia.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -113,7 +113,7 @@ export default function App() {
           </div>
 
           {/* Start of the new row for Liam and Richard */}
-          <div className="col-md-4 pt-4 team-card">
+          <div className="col-md-4 pt-5 team-card">
             <MDBCard className="team-card">
               <MDBCardImage
                 src="../../images/team-members/liam.png"
@@ -137,7 +137,7 @@ export default function App() {
             </MDBCard>
           </div>
 
-          <div className="col-md-4 pt-4 team-card">
+          <div className="col-md-4 pt-5 team-card">
             <MDBCard className="team-card">
               <MDBCardImage
                 src="../../images/team-members/peachy.png"

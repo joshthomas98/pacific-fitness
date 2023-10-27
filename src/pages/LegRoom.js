@@ -8,36 +8,39 @@ const LegRoom = () => {
       </h1>
 
       <div className="container text-light" style={{ fontSize: "18px" }}>
-        <p>
-          Now, let’s dive into our leg room – a standout feature here at Pacific
-          Supergym that we’re truly proud of and that we believe is the best leg
-          room Wales has ever had…
-        </p>
+        <div className="text-container">
+          <p>
+            Now, let’s dive into our leg room – a standout feature here at
+            Pacific Supergym that we’re truly proud of and that we believe is
+            the best leg room Wales has ever had…
+          </p>
 
-        <p>
-          Top-notch equipment: get ready to experience the latest in
-          leg-training technology with our wide selection of premium equipment.
-          We’ve carefully curated a range of machines from well-known brands
-          like Atlantis, Rogers Athletics, Panatta, and Cybex. This means you’ll
-          have access to top-quality tools that let you target every leg muscle
-          with precision and efficiency.
-        </p>
+          <p>
+            Top-notch equipment: Get ready to experience the latest in
+            leg-training technology with our wide selection of premium
+            equipment. We’ve carefully curated a range of machines from
+            well-known brands like Atlantis, Rogers Athletics, Panatta, and
+            Cybex. This means you’ll have access to top-quality tools that let
+            you target every leg muscle with precision and efficiency.
+          </p>
 
-        <p>
-          Something for everyone: no matter where you are in your fitness
-          journey, the leg room is designed to cater to all levels of
-          experience. From beginners to seasoned athletes, there’s a variety of
-          leg exercises available. Whether you enjoy classic movements or prefer
-          more specialised options, we’ve got you covered.
-        </p>
+          <p>
+            Something for everyone: No matter where you are in your fitness
+            journey, the leg room is designed to cater to all levels of
+            experience. From beginners to seasoned athletes, there’s a variety
+            of leg exercises available. Whether you enjoy classic movements or
+            prefer more specialised options, we’ve got you covered.
+          </p>
 
-        <p>
-          Guidance from experts: our certified trainers are committed to helping
-          you succeed. They’ll be there to provide personalised guidance, offer
-          tips on form and technique, and tailor training programs that suit
-          your needs. With their expertise and encouragement, you’ll discover
-          newfound strength and exceed your own expectations.
-        </p>
+          <p>
+            Guidance from experts: Our certified trainers are committed to
+            helping you succeed. They’ll be there to provide personalised
+            guidance, offer tips on form and technique, and tailor training
+            programs that suit your needs. With their expertise and
+            encouragement, you’ll discover newfound strength and exceed your own
+            expectations.
+          </p>
+        </div>
       </div>
 
       <div className="pt-3">
@@ -46,28 +49,28 @@ const LegRoom = () => {
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08862.jpg"
-              alt="Image 1"
+              alt="1"
             />
           </div>
           <div className="col-md-3">
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08863.jpg"
-              alt="Image 2"
+              alt="2"
             />
           </div>
           <div className="col-md-3">
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08864.jpg"
-              alt="Image 3"
+              alt="3"
             />
           </div>
           <div className="col-md-3">
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08865.jpg"
-              alt="Image 4"
+              alt="4"
             />
           </div>
         </div>
@@ -76,28 +79,28 @@ const LegRoom = () => {
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08866.jpg"
-              alt="Image 5"
+              alt="5"
             />
           </div>
           <div className="col-md-3">
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08867.jpg"
-              alt="Image 6"
+              alt="6"
             />
           </div>
           <div className="col-md-3">
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08868.jpg"
-              alt="Image 7"
+              alt="7"
             />
           </div>
           <div className="col-md-3">
             <img
               className="img-fluid w-100"
               src="../../images/leg-room/DSC08869.jpg"
-              alt="Image 8"
+              alt="8"
             />
           </div>
         </div>
@@ -106,7 +109,7 @@ const LegRoom = () => {
             <img
               className="img-fluid w-25"
               src="../../images/leg-room/DSC08870.jpg"
-              alt="Image 9"
+              alt="9"
             />
           </div>
         </div>
