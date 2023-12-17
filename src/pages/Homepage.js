@@ -62,6 +62,34 @@ const Homepage = () => {
           </div>
         </section>
 
+        <section className="d-flex justify-content-center align-items-center p-5">
+          <div className="membership-section">
+            <div className="membership-container px-4">
+              <img
+                src="../../images/pacific_logo.png"
+                alt="Gym Logo"
+                className="logo mx-3"
+              />
+              <div className="membership-details pt-5">
+                <h2>Pacific Membership</h2>
+                <p className="price">£50.00 per month</p>
+                <p>
+                  Ready to become a Pacific member? Give us a call, drop us a
+                  message, or pop into the gym to see us today!
+                </p>
+                <div className="cta-buttons pb-5">
+                  <a href="/contact" className="button">
+                    Get in touch
+                  </a>
+                  <a href="/membership" className="button">
+                    Learn more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Testimonials section */}
         <section className="pt-5 pb-4">
           <Testimonials />
