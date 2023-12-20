@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const hamburgerIcon = (
   <svg
@@ -10,30 +11,9 @@ const hamburgerIcon = (
     xmlns="http://www.w3.org/2000/svg"
   >
     <rect width="24" height="24" rx="4" fill="transparent" fillOpacity="0" />
-    <rect
-      x="4"
-      y="12"
-      width="16"
-      height="2"
-      rx="1"
-      fill="#FFFFFF" // White color for the bars
-    />
-    <rect
-      x="4"
-      y="6"
-      width="16"
-      height="2"
-      rx="1"
-      fill="#FFFFFF" // White color for the bars
-    />
-    <rect
-      x="4"
-      y="18"
-      width="16"
-      height="2"
-      rx="1"
-      fill="#FFFFFF" // White color for the bars
-    />
+    <rect x="4" y="12" width="16" height="2" rx="1" fill="#FFFFFF" />
+    <rect x="4" y="6" width="16" height="2" rx="1" fill="#FFFFFF" />
+    <rect x="4" y="18" width="16" height="2" rx="1" fill="#FFFFFF" />
   </svg>
 );
 
@@ -42,17 +22,15 @@ const NavbarComponent = () => {
     <>
       <style>
         {`
-          /* Custom CSS for medium screens and below (<= 991px) */
           @media (max-width: 991px) {
             .gold-text-navbar .navbar-nav {
-              display: none; /* Hide the nav links */
+              display: none;
             }
 
             .gold-text-navbar .navbar-collapse.collapse.show .navbar-nav {
-              display: flex; /* Show the nav links when the hamburger menu is open */
+              display: flex;
             }
 
-            /* Change the color of the hamburger icon to transparent */
             .gold-text-navbar .navbar-toggler {
               background-color: transparent;
               border-color: transparent;
@@ -62,7 +40,7 @@ const NavbarComponent = () => {
       </style>
       <Navbar className="gold-text-navbar" expand="lg">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <img
               src="../../images/pacific_logo.png"
               className="d-inline-block align-top mb-5 mt-3"
@@ -74,7 +52,11 @@ const NavbarComponent = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link style={{ fontSize: "22px", color: "#eccf42" }} href="/">
+              <Nav.Link
+                as={Link}
+                to="/"
+                style={{ fontSize: "22px", color: "#eccf42" }}
+              >
                 Home
               </Nav.Link>
 
@@ -86,50 +68,58 @@ const NavbarComponent = () => {
                   The Gym
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item href="/strengthroom">
+                  <Dropdown.Item as={Link} to="/strengthroom">
                     Strength Room
                   </Dropdown.Item>
-                  <Dropdown.Item href="/legroom">Leg Room</Dropdown.Item>
-                  <Dropdown.Item href="/cardioandabsroom">
+                  <Dropdown.Item as={Link} to="/legroom">
+                    Leg Room
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/cardioandabsroom">
                     Cardio and Abs Room
                   </Dropdown.Item>
-                  <Dropdown.Item href="/chestandbackroom">
+                  <Dropdown.Item as={Link} to="/chestandbackroom">
                     Chest and Back Room
                   </Dropdown.Item>
-                  <Dropdown.Item href="/shouldersandarmsroom">
+                  <Dropdown.Item as={Link} to="/shouldersandarmsroom">
                     Shoulders and Arms Room
                   </Dropdown.Item>
-                  <Dropdown.Item href="/hiitroom">HIIT Room</Dropdown.Item>
-                  <Dropdown.Item href="/boxingandbikesroom">
+                  <Dropdown.Item as={Link} to="/hiitroom">
+                    HIIT Room
+                  </Dropdown.Item>
+                  <Dropdown.Item as={Link} to="/boxingandbikesroom">
                     Boxing And Bikes Room
                   </Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
 
               <Nav.Link
+                as={Link}
+                to="/theteam"
                 style={{ fontSize: "22px", color: "#eccf42" }}
-                href="/theteam"
               >
                 The Team
               </Nav.Link>
 
               <Nav.Link
+                as={Link}
+                to="/newsandevents"
                 style={{ fontSize: "22px", color: "#eccf42" }}
-                href="/newsandevents"
               >
                 News
               </Nav.Link>
 
               <Nav.Link
+                as={Link}
+                to="/contact"
                 style={{ fontSize: "22px", color: "#eccf42" }}
-                href="/contact"
               >
                 Contact
               </Nav.Link>
 
               <Nav.Link
+                as={Link}
+                to="/membership"
                 style={{ fontSize: "22px", color: "#eccf42" }}
-                href="/membership"
               >
                 Membership
               </Nav.Link>

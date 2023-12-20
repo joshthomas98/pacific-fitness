@@ -25,7 +25,7 @@ const SocialMediaIcons = ({ size }) => {
 
       <a
         target={"_blank"}
-        href="https://www.youtube.com/@pacificfitnessuk"
+        href="https://www.youtube.com/@pacificsupergymuk"
         className="social-icon youtube-icon mr-3 h2 px-1"
       >
         <FaYoutube style={{ fontSize: size }} />

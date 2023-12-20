@@ -18,7 +18,7 @@ const NewsAndEvents = () => {
         <SocialMediaIcons size={48} />
       </div>
 
-      <h2 className="text-center pt-5 pb-5" style={{ color: "#eccf42" }}>
+      <h2 className="text-center pt-5 pb-4" style={{ color: "#eccf42" }}>
         Past Events
       </h2>
 

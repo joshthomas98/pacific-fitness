@@ -1,13 +1,24 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import Carousel from "../components/Carousel";
 import Testimonials from "../components/Testimonials";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDumbbell, faHandshake } from "@fortawesome/free-solid-svg-icons";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import SocialMediaIcons from "../components/SocialMediaIcons";
+import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
+  const navigate = useNavigate();
+
+  const navigateToContact = () => {
+    navigate("/contact");
+  };
+
+  const navigateToMembership = () => {
+    navigate("/membership");
+  };
+
   return (
     <div>
       <Container>
@@ -78,12 +89,27 @@ const Homepage = () => {
                   message, or pop into the gym to see us today!
                 </p>
                 <div className="cta-buttons pb-5">
-                  <a href="/contact" className="button">
+                  <Button
+                    onClick={navigateToContact}
+                    style={{
+                      backgroundColor: "#eccf42",
+                      color: "#000", // Set the text color if needed
+                      borderColor: "#eccf42", // Set the border color for consistency
+                    }}
+                  >
                     Get in touch
-                  </a>
-                  <a href="/membership" className="button">
+                  </Button>
+                  <Button
+                    className="mx-3"
+                    onClick={navigateToMembership}
+                    style={{
+                      backgroundColor: "#eccf42",
+                      color: "#000", // Set the text color if needed
+                      borderColor: "#eccf42", // Set the border color for consistency
+                    }}
+                  >
                     Learn more
-                  </a>
+                  </Button>
                 </div>
               </div>
             </div>

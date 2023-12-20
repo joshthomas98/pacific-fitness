@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 import Navbar from "./components/Navbar";
@@ -22,7 +22,7 @@ import NewsAndEvents from "./pages/NewsAndEvents";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <Container>
         <div className="d-flex justify-content-end">
           <SocialMediaIcons />
@@ -58,7 +58,7 @@ const App = () => {
         </Routes>
         <Footer />
       </Container>
-    </BrowserRouter>
+    </Router>
   );
 };
 
