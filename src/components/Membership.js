@@ -91,7 +91,7 @@ function Membership() {
                 </Card.Text>
 
                 <div className="text-center pb-2">
-                  <Card.Link href="/contact" style={{ color: "#eccf42" }}>
+                  <Card.Link href="/#/contact" style={{ color: "#eccf42" }}>
                     Get in touch
                   </Card.Link>
                   <Card.Link href="/" style={{ color: "#eccf42" }}>
