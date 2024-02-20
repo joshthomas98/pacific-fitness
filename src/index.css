@@ -1,0 +1,95 @@
+* {
+  background-color: #111111;
+}
+
+/* Navbar */
+.gold-text-navbar .nav-link {
+  color: #eccf42;
+}
+
+/* Carousel */
+.center-carousel {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Adjust this value as needed */
+}
+
+/* Social media icons */
+.facebook-icon:hover {
+  color: #1877f2; /* Facebook official color */
+}
+
+.instagram-icon:hover {
+  color: #e1306c; /* Instagram official color */
+}
+
+.twitter-icon:hover {
+  color: #1da1f2; /* Twitter official color */
+}
+
+.youtube-icon:hover {
+  color: #ff0000; /* YouTube official red color */
+}
+
+/* In your CSS file or within your React component */
+.text-container {
+  max-width: 1100px; /* Adjust the value to your preferred maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Homepage Membership Pricing Summary Section */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.membership-section {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  max-width: 1100px;
+}
+
+.membership-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px; /* Adjust the width as needed */
+  margin-right: 20px;
+}
+
+.membership-details {
+  flex: 1;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eccf42;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #eccf42;
+}
