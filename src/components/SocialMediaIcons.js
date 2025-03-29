@@ -1,40 +1,45 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
-const SocialMediaIcons = ({ size }) => {
+const SocialMediaIcons = ({ size = "1.2rem" }) => {
   return (
-    <div
-      className="d-flex pt-3 social-media-icons-container justify-content-center"
-      style={{ color: "#eccf42" }}
-    >
+    <div className="social-icons">
       <a
-        target={"_blank"}
+        target="_blank"
+        rel="noopener noreferrer" 
         href="https://www.facebook.com/PacificFitness"
-        className="social-icon facebook-icon mr-3 h2 px-1"
+        className="social-icon facebook-icon"
+        aria-label="Facebook"
       >
         <FaFacebook style={{ fontSize: size }} />
       </a>
 
       <a
-        target={"_blank"}
+        target="_blank"
+        rel="noopener noreferrer"
         href="https://www.instagram.com/pacific_supergym/?hl=en"
-        className="social-icon instagram-icon mr-3 h2 px-1"
+        className="social-icon instagram-icon"
+        aria-label="Instagram"
       >
         <FaInstagram style={{ fontSize: size }} />
       </a>
 
       <a
-        target={"_blank"}
+        target="_blank"
+        rel="noopener noreferrer"
         href="https://www.youtube.com/@pacificsupergymuk"
-        className="social-icon youtube-icon mr-3 h2 px-1"
+        className="social-icon youtube-icon"
+        aria-label="YouTube"
       >
         <FaYoutube style={{ fontSize: size }} />
       </a>
 
       <a
-        target={"_blank"}
+        target="_blank"
+        rel="noopener noreferrer"
         href="https://www.twitter.com/pacificfitness"
-        className="social-icon twitter-icon mr-3 h2 px-1"
+        className="social-icon twitter-icon"
+        aria-label="Twitter"
       >
         <FaTwitter style={{ fontSize: size }} />
       </a>

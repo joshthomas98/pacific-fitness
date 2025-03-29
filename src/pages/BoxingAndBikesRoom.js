@@ -1,16 +1,34 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import { motion } from "framer-motion";
 
 const BoxingAndBikesRoom = () => {
   return (
-    <Container className="text-center">
-      <h1 className="pb-3" style={{ color: "#eccf42" }}>
-        Boxing And Bikes Room
-      </h1>
+    <Container className="py-5">
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <h1 
+          className="display-4 text-center mb-4 pb-2" 
+          style={{ 
+            color: "#eccf42", 
+            fontWeight: "700"
+          }}
+        >
+          Boxing And Bikes Room
+        </h1>
+      </motion.div>
 
-      <Container className="text-light" style={{ fontSize: "18px" }}>
-        <div className="text-container">
-          <p>
+      <Container className="text-light my-4" style={{ fontSize: "18px" }}>
+        <motion.div 
+          className="text-container bg-dark bg-opacity-50 p-4 rounded shadow-sm"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+        >
+          <p className="lead">
             Last but certainly not least is our action-packed Boxing and Bikes
             Room! This room is equipped with an array of equipment designed to
             cater to your boxing and cardio training needs.
@@ -37,52 +55,84 @@ const BoxingAndBikesRoom = () => {
             including the ever-popular spin class. Join us for an energetic and
             sweat-inducing session that guarantees to get your heart pumping.
           </p>
-        </div>
+        </motion.div>
       </Container>
 
-      <Container className="pt-3">
-        <Row xs={1} md={4} className="g-4 g-md-4 pb-4 justify-content-center">
-          <Col>
-            <img
-              className="img-fluid w-100"
-              src="../../images/boxing-and-bikes-room/DSC08871.jpg"
-              alt="Image 1"
-            />
-          </Col>
-          <Col>
-            <img
-              className="img-fluid w-100"
-              src="../../images/boxing-and-bikes-room/DSC08872.jpg"
-              alt="Image 2"
-            />
-          </Col>
-          <Col>
-            <img
-              className="img-fluid w-100"
-              src="../../images/boxing-and-bikes-room/DSC08873.jpg"
-              alt="Image 3"
-            />
-          </Col>
-          <Col>
-            <img
-              className="img-fluid w-100"
-              src="../../images/boxing-and-bikes-room/DSC08874.jpg"
-              alt="Image 4"
-            />
-          </Col>
-        </Row>
+      <Container className="pt-4 pb-5">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4, duration: 0.6 }}
+        >
+          <h3 className="text-light mb-4 d-flex justify-content-center">Explore Our Facilities</h3>
+          <Row xs={1} md={2} lg={4} className="g-4 justify-content-center">
+            {[
+              {
+                src: "../../images/boxing-and-bikes-room/DSC08871.jpg",
+                alt: "Boxing Equipment",
+                caption: "Professional Boxing Equipment"
+              },
+              {
+                src: "../../images/boxing-and-bikes-room/DSC08872.jpg",
+                alt: "Spin Bikes",
+                caption: "High-Quality Spin Bikes"
+              },
+              {
+                src: "../../images/boxing-and-bikes-room/DSC08873.jpg",
+                alt: "BoxMaster Station",
+                caption: "BoxMaster Training Station"
+              },
+              {
+                src: "../../images/boxing-and-bikes-room/DSC08874.jpg",
+                alt: "Workout Area",
+                caption: "Spacious Workout Area"
+              }
+            ].map((image, idx) => (
+              <Col key={idx}>
+                <Card className="h-100 bg-dark text-light border-0 shadow">
+                  <Card.Img 
+                    variant="top" 
+                    src={image.src} 
+                    alt={image.alt} 
+                    className="img-fluid" 
+                    style={{ height: "200px", objectFit: "cover" }}
+                  />
+                  <Card.Body className="p-3">
+                    <Card.Text className="small text-center">{image.caption}</Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </motion.div>
       </Container>
 
       <Container>
-        <p className="py-4">
-          <a
-            target="blank"
-            href="https://youtube.com/shorts/HJ9UimPMxIw?feature=share"
-            style={{ fontSize: "22px", color: "#eccf42" }}
-          >
-            Click here to see more of our Boxing and Bikes Room
-          </a>
-        </p>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.6, duration: 0.6 }}
+          whileHover={{ scale: 1.02 }}
+        >
+          <div className="text-center rounded shadow-sm">
+            <h4 className="mb-3 text-light">Want to see more?</h4>
+            <a
+              target="blank"
+              href="https://youtube.com/shorts/HJ9UimPMxIw?feature=share"
+              className="btn btn-lg px-4 py-2"
+              style={{ 
+                fontSize: "18px", 
+                backgroundColor: "#eccf42", 
+                color: "#000",
+                fontWeight: "600",
+                borderRadius: "50px"
+              }}
+            >
+              <i className="bi bi-play-circle me-2"></i>
+              Watch a Video Tour
+            </a>
+          </div>
+        </motion.div>
       </Container>
     </Container>
   );

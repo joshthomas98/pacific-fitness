@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
 
 import Navbar from "./components/Navbar";
@@ -23,41 +23,35 @@ import NewsAndEvents from "./pages/NewsAndEvents";
 const App = () => {
   return (
     <Router>
-      <Container>
-        <div className="d-flex justify-content-end">
-          <SocialMediaIcons />
+      <div className="app-wrapper">
+        <div className="social-bar">
+          <Container>
+            <div className="d-flex justify-content-end py-2">
+              <SocialMediaIcons />
+            </div>
+          </Container>
         </div>
         <Navbar />
-        <Routes>
-          <Route index element={<Homepage />} />
-
-          <Route path="legroom" element={<LegRoom />} />
-
-          <Route path="cardioandabsroom" element={<CardioAndAbsRoom />} />
-
-          <Route path="chestandbackroom" element={<ChestAndBackRoom />} />
-
-          <Route
-            path="shouldersandarmsroom"
-            element={<ShouldersAndArmsRoom />}
-          />
-
-          <Route path="strengthroom" element={<StrengthRoom />} />
-
-          <Route path="hiitroom" element={<HIITRoom />} />
-
-          <Route path="boxingandbikesroom" element={<BoxingAndBikesRoom />} />
-
-          <Route path="contact" element={<ContactInfoAndLocation />} />
-
-          <Route path="membership" element={<Membership />} />
-
-          <Route path="theteam" element={<TheTeam />} />
-
-          <Route path="newsandevents" element={<NewsAndEvents />} />
-        </Routes>
+        <main className="main-content">
+          <Container className="py-4">
+            <Routes>
+              <Route index element={<Homepage />} />
+              <Route path="/legroom" element={<LegRoom />} />
+              <Route path="/cardioandabsroom" element={<CardioAndAbsRoom />} />
+              <Route path="/chestandbackroom" element={<ChestAndBackRoom />} />
+              <Route path="/shouldersandarmsroom" element={<ShouldersAndArmsRoom />} />
+              <Route path="/strengthroom" element={<StrengthRoom />} />
+              <Route path="/hiitroom" element={<HIITRoom />} />
+              <Route path="/boxingandbikesroom" element={<BoxingAndBikesRoom />} />
+              <Route path="/contact" element={<ContactInfoAndLocation />} />
+              <Route path="/membership" element={<Membership />} />
+              <Route path="/theteam" element={<TheTeam />} />
+              <Route path="/newsandevents" element={<NewsAndEvents />} />
+            </Routes>
+          </Container>
+        </main>
         <Footer />
-      </Container>
+      </div>
     </Router>
   );
 };

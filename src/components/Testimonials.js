@@ -1,97 +1,70 @@
 import React from "react";
+import { Card, Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Testimonials = () => {
+  const testimonials = [
+    {
+      id: 1,
+      name: "Samantha",
+      role: "Member since 2022",
+      image: "https://randomuser.me/api/portraits/women/11.jpg",
+      quote: "Pacific Supergym transformed my life! The supportive community and top-notch trainers helped me achieve my fitness goals like never before.",
+    },
+    {
+      id: 2,
+      name: "Michael",
+      role: "Member since 2021",
+      image: "https://randomuser.me/api/portraits/men/11.jpg",
+      quote: "Joining Pacific Supergym was the best decision ever. The variety of specialized rooms and motivating instructors keep me coming back for more!",
+    },
+    {
+      id: 3,
+      name: "Emily",
+      role: "Member since 2023",
+      image: "https://randomuser.me/api/portraits/women/12.jpg",
+      quote: "I love the positive and friendly atmosphere at Pacific Supergym. The state-of-the-art equipment and friendly staff make every workout enjoyable.",
+    },
+    {
+      id: 4,
+      name: "Jason",
+      role: "Member since 2020",
+      image: "https://randomuser.me/api/portraits/men/12.jpg",
+      quote: "Pacific Supergym is amazing! Thanks to their personalised training, I've seen incredible progress in my strength and confidence. Would definitely recommend.",
+    }
+  ];
+
   return (
-    <>
-      <div id="testimonials" className="px-5 pb-5 text-light">
-        <div className="container">
-          <h2 className="text-center" style={{ color: "#eccf42" }}>
-            Testimonials
-          </h2>
-          <p className="lead text-center text-white mb-5">
-            See what our members have to say about Pacific Supergym...
-          </p>
-          <div className="row g-4">
-            <div className="col-md-6 col-lg-3">
-              <div className="card bg-light">
-                <div className="card-body text-center">
-                  <img
-                    src="https://randomuser.me/api/portraits/women/11.jpg"
-                    className="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 className="card-title mb-3" style={{ color: "#eccf42" }}>
-                    Samantha
-                  </h3>
-                  <p className="card-text text-light">
-                    "Pacific Supergym transformed my life! The supportive
-                    community and top-notch trainers helped me achieve my
-                    fitness goals like never before." — Samantha
-                  </p>
+    <div className="testimonials-wrapper">
+      <Row className="g-4">
+        {testimonials.map((testimonial) => (
+          <Col md={6} key={testimonial.id} className="slide-up" style={{animationDelay: `${0.1 * testimonial.id}s`}}>
+            <Card className="testimonial-card h-100">
+              <Card.Body>
+                <div className="quote-icon">
+                  <FontAwesomeIcon icon={faQuoteLeft} />
                 </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-3">
-              <div className="card bg-light">
-                <div className="card-body text-center">
+                <Card.Text className="testimonial-quote mb-4">
+                  {testimonial.quote}
+                </Card.Text>
+                <div className="testimonial-author d-flex align-items-center">
                   <img
-                    src="https://randomuser.me/api/portraits/men/11.jpg"
-                    className="rounded-circle mb-3"
-                    alt=""
+                    src={testimonial.image}
+                    className="testimonial-image"
+                    alt={testimonial.name}
                   />
-                  <h3 className="card-title mb-3" style={{ color: "#eccf42" }}>
-                    Michael
-                  </h3>
-                  <p className="card-text text-light">
-                    "Joining Pacific Supergym was the best decision ever. The
-                    variety of classes and motivating instructors keep me coming
-                    back for more!" — Michael
-                  </p>
+                  <div className="author-info">
+                    <h4 className="mb-0">{testimonial.name}</h4>
+                    <p className="text-white-50 mb-0">{testimonial.role}</p>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-3">
-              <div className="card bg-light">
-                <div className="card-body text-center">
-                  <img
-                    src="https://randomuser.me/api/portraits/women/12.jpg"
-                    className="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 className="card-title mb-3" style={{ color: "#eccf42" }}>
-                    Emily
-                  </h3>
-                  <p className="card-text text-light">
-                    "I love the positive and friendly atmosphere at Pacific
-                    Supergym. The state-of-the-art equipment and friendly staff
-                    make every workout enjoyable." — Emily
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-3">
-              <div className="card bg-light">
-                <div className="card-body text-center">
-                  <img
-                    src="https://randomuser.me/api/portraits/men/12.jpg"
-                    className="rounded-circle mb-3"
-                    alt=""
-                  />
-                  <h3 className="card-title mb-3" style={{ color: "#eccf42" }}>
-                    Jason
-                  </h3>
-                  <p className="card-text text-light">
-                    "Pacific Supergym is amazing! Thanks to their personalised
-                    training, I've seen incredible progress in my strength and
-                    confidence. Would definitely recommend." — Jason
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 };
 

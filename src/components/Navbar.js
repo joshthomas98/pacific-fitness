@@ -1,61 +1,61 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const hamburgerIcon = (
-  <svg
-    width="40"
-    height="40"
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <rect width="24" height="24" rx="4" fill="transparent" fillOpacity="0" />
-    <rect x="4" y="12" width="16" height="2" rx="1" fill="#FFFFFF" />
-    <rect x="4" y="6" width="16" height="2" rx="1" fill="#FFFFFF" />
-    <rect x="4" y="18" width="16" height="2" rx="1" fill="#FFFFFF" />
-  </svg>
-);
-
 const NavbarComponent = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <style>
-        {`
-          @media (max-width: 991px) {
-            .gold-text-navbar .navbar-nav {
-              display: none;
-            }
-
-            .gold-text-navbar .navbar-collapse.collapse.show .navbar-nav {
-              display: flex;
-            }
-
-            .gold-text-navbar .navbar-toggler {
-              background-color: transparent;
-              border-color: transparent;
-            }
-          }
-        `}
-      </style>
-      <Navbar className="gold-text-navbar" expand="lg">
+      <Navbar 
+        className={`gold-text-navbar ${scrolled ? 'scrolled' : ''}`} 
+        expand="lg" 
+        fixed="top"
+      >
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="/" className="py-2">
             <img
-              src="../../images/pacific_logo.png"
-              className="d-inline-block align-top mb-5 mt-3"
+              src="/images/pacific_logo.png"
+              className="d-inline-block align-top"
               alt="Pacific Supergym Logo"
+              width="180"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav">
-            {hamburgerIcon}
+            <span className="navbar-toggler-icon">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="7" width="30" height="2" rx="1" fill="#eccf42" />
+                <rect y="15" width="30" height="2" rx="1" fill="#eccf42" />
+                <rect y="23" width="30" height="2" rx="1" fill="#eccf42" />
+              </svg>
+            </span>
           </Navbar.Toggle>
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link
                 as={Link}
                 to="/"
-                style={{ fontSize: "22px", color: "#eccf42" }}
+                className="nav-link"
               >
                 Home
               </Nav.Link>
@@ -63,9 +63,25 @@ const NavbarComponent = () => {
               <Dropdown as={Nav.Item}>
                 <Dropdown.Toggle
                   as={Nav.Link}
-                  style={{ fontSize: "22px", color: "#eccf42" }}
+                  className="nav-link d-flex align-items-center"
                 >
                   The Gym
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="ms-1"
+                  >
+                    <path
+                      d="M4 6L8 10L12 6"
+                      stroke="#eccf42"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item as={Link} to="/strengthroom">
@@ -95,7 +111,7 @@ const NavbarComponent = () => {
               <Nav.Link
                 as={Link}
                 to="/theteam"
-                style={{ fontSize: "22px", color: "#eccf42" }}
+                className="nav-link"
               >
                 The Team
               </Nav.Link>
@@ -103,7 +119,7 @@ const NavbarComponent = () => {
               <Nav.Link
                 as={Link}
                 to="/newsandevents"
-                style={{ fontSize: "22px", color: "#eccf42" }}
+                className="nav-link"
               >
                 News
               </Nav.Link>
@@ -111,7 +127,7 @@ const NavbarComponent = () => {
               <Nav.Link
                 as={Link}
                 to="/contact"
-                style={{ fontSize: "22px", color: "#eccf42" }}
+                className="nav-link"
               >
                 Contact
               </Nav.Link>
@@ -119,7 +135,7 @@ const NavbarComponent = () => {
               <Nav.Link
                 as={Link}
                 to="/membership"
-                style={{ fontSize: "22px", color: "#eccf42" }}
+                className="nav-link highlight"
               >
                 Membership
               </Nav.Link>
@@ -127,6 +143,7 @@ const NavbarComponent = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <div className="navbar-spacer"></div>
     </>
   );
 };
