@@ -522,75 +522,70 @@ p {
   width: 80px;
 }
 
-/* Feature Cards */
+/* Feature Cards Styling */
 .feature-card {
-  border: 1px solid #333;
-  border-radius: 8px;
-  background-color: #111111;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%;
-  position: relative;
+  border-radius: 12px;
+  border: none;
+  background: #212529;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
 
-.feature-card:before {
-  content: none;
-}
-
-.feature-card:hover {
+.hover-scale:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
-.feature-card:hover:before {
-  width: 100%;
-  height: 5px;
-}
-
-.feature-icon {
-  background-color: rgba(236, 207, 66, 0.1);
-  width: 80px;
+.feature-icon-wrapper {
   height: 80px;
+  width: 80px;
+  background: rgba(236, 207, 66, 0.1);
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
+  padding: 20px;
+}
+
+.feature-icon {
   transition: all 0.3s ease;
 }
 
-.feature-card:hover .feature-icon {
+.pulse-on-hover:hover {
   transform: scale(1.1);
-  background-color: rgba(236, 207, 66, 0.2);
 }
 
-.feature-link {
-  display: inline-flex;
-  align-items: center;
-  transition: all 0.3s ease;
-  color: #eccf42;
-  text-decoration: none;
-}
-
-.feature-link .text-eccf42 {
-  transition: all 0.3s ease;
-}
-
-.feature-card:hover .feature-link .text-eccf42 {
-  margin-left: 5px;
-  text-decoration: underline;
-}
-
-.feature-card:hover .feature-link svg {
-  transform: translateX(3px);
+.bounce-right {
   transition: transform 0.3s ease;
 }
 
-.feature-card p.card-text {
-  color: #e0e0e0;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+.feature-card:hover .bounce-right {
+  transform: translateX(5px);
+}
+
+.card-accent-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background-color: #eccf42;
+  transition: width 0.3s ease;
+}
+
+.feature-card:hover .card-accent-border {
+  width: 100%;
+}
+
+.text-eccf42 {
+  color: #eccf42;
+  transition: color 0.3s ease;
+}
+
+.feature-card:hover .text-eccf42 {
+  text-decoration: underline;
 }
 
 /* Video Tour Section */
@@ -1069,17 +1064,6 @@ p {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   position: relative;
   border: 1px solid #333;
-}
-
-.membership-testimonials::before {
-  content: '"';
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  font-size: 80px;
-  color: rgba(236, 207, 66, 0.2);
-  font-family: serif;
-  line-height: 1;
 }
 
 .membership-testimonials blockquote {

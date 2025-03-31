@@ -14,7 +14,7 @@ function EnhancedCarousel() {
         />
         <Carousel.Caption>
           <h3>WELCOME TO PACIFIC SUPERGYM</h3>
-          <p>Your premier fitness destination with state-of-the-art equipment and specialised training rooms</p>
+          <p>Wales' number one training facility</p>
           <Link to="/membership">
             <Button className="btn-primary me-2">Join Now</Button>
           </Link>

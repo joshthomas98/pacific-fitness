@@ -7,12 +7,6 @@ import {
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faTwitter,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
 import { 
   faPhone, 
   faEnvelope, 
@@ -24,7 +18,7 @@ import SocialMediaIcons from "./SocialMediaIcons";
 
 export default function Footer() {
   return (
-    <MDBFooter className="footer" color="white">
+    <MDBFooter className="footer mt-0" color="white" style={{ marginTop: '0' }}>
       <MDBContainer className="p-4">
         <MDBRow className="gy-4 justify-content-between">
           <MDBCol lg="4" md="6" className="mb-4 mb-md-0">
@@ -97,7 +91,7 @@ export default function Footer() {
         </MDBRow>
       </MDBContainer>
 
-      <div className="footer-copyright text-center p-3" style={{ backgroundColor: "#000" }}>
+      <div className="footer-copyright text-center pt-4 pb-3" style={{ backgroundColor: "#000" }}>
         <div className="container">
           © {new Date().getFullYear()} Copyright{" "}
           <a className="footer-brand-link" href="https://pacificfitness.co.uk/">

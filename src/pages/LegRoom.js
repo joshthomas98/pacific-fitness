@@ -69,7 +69,7 @@ const LegRoom = () => {
                       </div>
                       <h4 style={{ color: "#eccf42" }}>Expert Guidance</h4>
                       <p>
-                        Our certified trainers provide personalized guidance, form tips, and
+                        Our certified trainers provide personalised guidance, form tips, and
                         tailored training programs to help you exceed your own expectations.
                       </p>
                     </Col>

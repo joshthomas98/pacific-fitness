@@ -43,64 +43,73 @@ const Homepage = () => {
           
           <Row className="text-center g-4">
             <Col md={4} className="mb-4 slide-up" style={{animationDelay: '0.1s'}}>
-              <Card className="feature-card h-100">
-                <Card.Body className="text-center p-4">
-                  <div className="feature-icon mb-4">
+              <Card className="feature-card h-100 shadow hover-scale">
+                <Card.Body className="text-center p-5">
+                  <div className="feature-icon-wrapper mb-4">
                     <FontAwesomeIcon
                       icon={faDumbbell}
-                      size="2x"
+                      size="3x"
+                      className="feature-icon pulse-on-hover"
                       style={{ color: "#eccf42" }}
                     />
                   </div>
-                  <h3 className="card-title mb-3">Quality Equipment</h3>
-                  <p className="card-text">
-                    State-of-the-art equipment carefully selected to enhance your workout experience and maximize results.
+                  <h3 className="card-title mb-3 fw-bold">Quality Equipment</h3>
+                  <p className="card-text lead text-dark">
+                    State-of-the-art equipment carefully selected to enhance your workout experience and maximise results.
                   </p>
-                  <Link to="/strengthroom" className="stretched-link mt-3">
-                    <span className="text-eccf42">Explore our equipment</span>
-                    <FontAwesomeIcon icon={faArrowRight} className="ms-2" />
+                  <Link to="/strengthroom" className="stretched-link mt-4 d-block">
+                    <span className="text-eccf42 fw-bold">Explore our equipment</span>
+                    <FontAwesomeIcon icon={faArrowRight} className="ms-2 bounce-right" />
                   </Link>
                 </Card.Body>
+                <div className="card-accent-border"></div>
               </Card>
             </Col>
 
             <Col md={4} className="mb-4 slide-up" style={{animationDelay: '0.2s'}}>
-              <Card className="feature-card h-100">
-                <Card.Body className="text-center p-4">
-                  <div className="feature-icon mb-4">
+              <Card className="feature-card h-100 shadow hover-scale">
+                <Card.Body className="text-center p-5">
+                  <div className="feature-icon-wrapper mb-4">
                     <FontAwesomeIcon
                       icon={faHandshake}
-                      size="2x"
+                      size="3x"
+                      className="feature-icon pulse-on-hover"
                       style={{ color: "#eccf42" }}
                     />
                   </div>
-                  <h3 className="card-title mb-3">Motivation & Support</h3>
-                  <p className="card-text">
+                  <h3 className="card-title mb-3 fw-bold">Motivation & Support</h3>
+                  <p className="card-text lead text-dark">
                     Our supportive team of trainers and staff will keep you inspired and motivated throughout your fitness journey.
                   </p>
-                  <Link to="/theteam" className="stretched-link mt-3">
-                    <span className="text-eccf42">Meet our team</span>
-                    <FontAwesomeIcon icon={faArrowRight} className="ms-2" />
+                  <Link to="/theteam" className="stretched-link mt-4 d-block">
+                    <span className="text-eccf42 fw-bold">Meet our team</span>
+                    <FontAwesomeIcon icon={faArrowRight} className="ms-2 bounce-right" />
                   </Link>
                 </Card.Body>
+                <div className="card-accent-border"></div>
               </Card>
             </Col>
 
             <Col md={4} className="mb-4 slide-up" style={{animationDelay: '0.3s'}}>
-              <Card className="feature-card h-100">
-                <Card.Body className="text-center p-4">
-                  <div className="feature-icon mb-4">
-                    <GiWeightLiftingUp size="2em" style={{ color: "#eccf42" }} />
+              <Card className="feature-card h-100 shadow hover-scale">
+                <Card.Body className="text-center p-5">
+                  <div className="feature-icon-wrapper mb-4">
+                    <GiWeightLiftingUp 
+                      size="3em" 
+                      className="feature-icon pulse-on-hover" 
+                      style={{ color: "#eccf42" }} 
+                    />
                   </div>
-                  <h3 className="card-title mb-3">Achieve Your Goals</h3>
-                  <p className="card-text">
+                  <h3 className="card-title mb-3 fw-bold">Achieve Your Goals</h3>
+                  <p className="card-text lead text-dark">
                     Turn your fitness aspirations into achievements in our motivating environment designed for your success.
                   </p>
-                  <Link to="/membership" className="stretched-link mt-3">
-                    <span className="text-eccf42">Start your journey</span>
-                    <FontAwesomeIcon icon={faArrowRight} className="ms-2" />
+                  <Link to="/membership" className="stretched-link mt-4 d-block">
+                    <span className="text-eccf42 fw-bold">Start your journey</span>
+                    <FontAwesomeIcon icon={faArrowRight} className="ms-2 bounce-right" />
                   </Link>
                 </Card.Body>
+                <div className="card-accent-border"></div>
               </Card>
             </Col>
           </Row>
