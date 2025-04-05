@@ -114,7 +114,7 @@ const HIITRoom = () => {
                 <div className="overflow-hidden rounded shadow">
                   <Card.Img 
                     variant="top" 
-                    src="../../images/hiit-room/DSC08852.jpg" 
+                    src="../../images/hiit-room/DSC08853.jpg" 
                     alt="HIIT Room Image 2"
                     className="gallery-image" 
                     style={{ transition: "transform 0.5s ease" }}
