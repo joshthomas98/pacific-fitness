@@ -17,7 +17,7 @@ const Testimonials = () => {
       name: "Michael",
       role: "Member since 2021",
       image: "https://randomuser.me/api/portraits/men/11.jpg",
-      quote: "Joining Pacific Supergym was the best decision ever. The variety of specialized rooms and motivating instructors keep me coming back for more!",
+      quote: "Joining Pacific Supergym was the best decision ever. The variety of specialised rooms and motivating instructors keep me coming back for more!",
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const Testimonials = () => {
                 <div className="quote-icon">
                   <FontAwesomeIcon icon={faQuoteLeft} />
                 </div>
-                <Card.Text className="testimonial-quote mb-4">
+                <Card.Text className="testimonial-quote mb-4 text-dark">
                   {testimonial.quote}
                 </Card.Text>
                 <div className="testimonial-author d-flex align-items-center">
@@ -56,7 +56,6 @@ const Testimonials = () => {
                   />
                   <div className="author-info">
                     <h4 className="mb-0">{testimonial.name}</h4>
-                    <p className="text-white-50 mb-0">{testimonial.role}</p>
                   </div>
                 </div>
               </Card.Body>

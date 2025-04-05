@@ -228,7 +228,13 @@ const Homepage = () => {
             <h2 className="display-5 mb-3">What Our Members Say</h2>
             <p className="lead text--light mb-0">Hear from the people who train with us</p>
           </div>
-          <Testimonials />
+          <Testimonials 
+            quotes={[
+              "Pacific Supergym has completely transformed my fitness journey. The equipment is top-notch, and the staff are incredibly supportive.",
+              "The atmosphere here is amazing. It’s not just a gym; it’s a community that keeps me motivated every day.",
+              "Joining Pacific Supergym was the best decision I’ve made for my health. The specialised rooms and expert trainers make all the difference."
+            ]}
+          />
         </Container>
       </section>
       
