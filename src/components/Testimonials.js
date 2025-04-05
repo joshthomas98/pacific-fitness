@@ -42,7 +42,7 @@ const Testimonials = () => {
           <Col md={6} key={testimonial.id} className="slide-up" style={{animationDelay: `${0.1 * testimonial.id}s`}}>
             <Card className="testimonial-card h-100">
               <Card.Body>
-                <div className="quote-icon">
+                <div className="quote-icon" style={{ color: "#eccf42" }}>
                   <FontAwesomeIcon icon={faQuoteLeft} />
                 </div>
                 <Card.Text className="testimonial-quote mb-4 text-dark">
