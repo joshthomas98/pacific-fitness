@@ -19,8 +19,8 @@ function Membership() {
       </div>
 
       <div className="membership-hero p-4 mb-5 rounded text-center text-light">
-        <h2 className="mb-4">Limited Time Offer!</h2>
-        <p className="lead mb-4">Sign up now and get your first month at 50% off</p>
+        <h2 className="mb-4">Join the Pacific Fitness Community!</h2>
+        <p className="lead mb-4">Achieve your fitness goals with our state-of-the-art facilities and expert trainers.</p>
         <Link to="/contact">
           <Button className="btn-primary btn-lg">Join Today</Button>
         </Link>
